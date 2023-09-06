@@ -1,0 +1,7 @@
+src(o0)
+.blend(shape(3),0.1)
+.modulate(noise(2),0.5)
+.blend(shape(5),0.1)
+.color(1,0.2,0.9)
+.rotate( () => time%360 )
+    .out(o0) 
