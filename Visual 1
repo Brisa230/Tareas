@@ -1,0 +1,8 @@
+shape(5)
+.color(0.4,0.4,0.9)
+.scale(2)
+.modulate(voronoi(3),0.5)
+.add(osc(8)
+.color(0.3,0.2,0.3),1.5)     
+
+   .out()
